@@ -1,0 +1,27 @@
+button{
+    transition: 0.2s;
+    width: fit-content;
+    padding: 0px 20px;
+    height: 50px;
+    margin-right: 20px;
+    font-size: 30px;
+    border: solid 4px #000000;
+    border-radius: 10px;
+    font-family: Open-Sans, sans-serif; 
+    color: white;
+}
+
+button:hover{
+    /*transition time*/
+    transition: 0.2s;
+    /*moves the button 4px towards the top, also makes the button 1.05 its previous size*/
+    transform: translate(10px, -4px) scale(1.05);
+    /*makes the button brighter*/
+    filter: brightness(115%);
+    text-decoration: underline;
+}
+
+button:active{
+    /*makes the button darker*/
+    filter: brightness(90%);
+}

@@ -1,0 +1,14 @@
+#img{
+    transition: 0.2s;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%; /*makes it circular*/
+    border: #000000 solid 13px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}

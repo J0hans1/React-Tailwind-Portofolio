@@ -1,0 +1,4 @@
+#MailComponent {
+    display: flex;
+    flex-direction: column;
+}

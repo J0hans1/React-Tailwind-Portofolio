@@ -1,0 +1,27 @@
+#page3{
+    background-color: #FF6F91;
+}
+
+#left-top{   
+    float: left;
+    height: 100%;
+}
+
+#left-bottom{
+    float: left;
+    height: 100%;
+}
+
+#right-top{
+    float: right;
+    height: 100%;
+}
+
+#right-bottom{
+    float: right;
+    height: 100%;
+}
+
+#page3 button {
+    background-color: #AD2E4C;
+}
