@@ -9,9 +9,9 @@ function LastPage(){
     return (
         <div id="LastPage" class="pages">
             <div class="left-column">
-                <RoundImage backgroundImage="url(https://i.imgur.com/XqQZQZL.jpg)"/>
+                <RoundImage/>
                 <div>
-                    <a href="path_to_file" download="proposed_file_name">
+                    <a href='../content/' download="CV.docx"> 
                         <button>Download CV</button>
                     </a>
                 </div>
@@ -22,4 +22,4 @@ function LastPage(){
             </div>
         </div>
     )
-}
+}   
