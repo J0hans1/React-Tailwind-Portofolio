@@ -1,7 +1,7 @@
 # My React and Tailwind based `portofolio webpage`!
 
 ### Purpose
-I used this project as an opportunity to learn the `React-` and `Tailwind`-frameworks.
+I used this project as an opportunity to learn the `React`- and `Tailwind`-frameworks.
 The obvious purpose of this webpage is to serve as a portofolio Containing, information about me, as well as 
 
 ### Other information
