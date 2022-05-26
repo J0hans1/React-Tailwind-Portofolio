@@ -1,3 +1,12 @@
 #page4{
     background-color: #FF9671;
 }
+
+.framework-icon{
+    width: 35%;
+}
+
+#react-logo{
+    position: relative;
+    left: 50%;
+}

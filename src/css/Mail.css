@@ -1,4 +1,36 @@
 #MailComponent {
+    margin-top: 5%;
+}
+
+#mail-form{
     display: flex;
     flex-direction: column;
+}
+
+#mail-form input, textarea{
+    height: 40px; /*? not possible with relative sizes*/
+    border: #000000 solid 10px;
+    padding: 2px;/*?virker ikke på textarea*/
+    font-size: 1em; 
+    border-radius: 20px; 
+    margin-bottom: 2%;
+    background-color: blanchedalmond;
+    transition: 0.2s;
+}
+
+#mail-form input:hover, textarea:hover{
+        /*transition time*/
+        transition: 0.2s;
+        /*moves the button 4px towards the top, also makes the button 1.05 its previous size*/
+        transform: translate(10px, -4px) scale(1.05);
+        font-size: 1.5em  ;
+}
+
+textarea{
+    /*fixed size*/
+    height: 250px;
+}
+
+#submit-button{
+    margin: auto
 }
