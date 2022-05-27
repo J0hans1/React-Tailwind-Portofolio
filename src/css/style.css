@@ -1,13 +1,21 @@
-
+body{
+    height: 100%;
+}
 
 .pages{
     width: 100%;
-    height: 100%;
-    background-color: #f2f2f2;
-    position: relative;
+    height: 70vh;
     overflow: hidden;
     padding: 2% 0 13% 0;
     margin: 0 auto;
+}
+
+.pagesVar1{
+    background: linear-gradient(#A29BFE, #7BEFFF);    position: relative;
+}
+
+.pagesVar2{
+    background-color: #FFFCF3;
 }
 
 .left-column{
@@ -25,5 +33,7 @@
     height: 100%;
     display: flex;
     margin-right: 100px;
+    display: flex;
     flex-direction: column;
+    align-items: center
 }

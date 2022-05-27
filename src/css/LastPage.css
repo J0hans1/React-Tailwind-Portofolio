@@ -1,11 +1,6 @@
-#LastPage{
-    background-color: #FFC75F;
-}
-
 #download-btn{
-    position:relative;
-    margin: 10% auto;
     bottom: 20%;
+    margin-top: 10%;
 }
 
 #last-left-column{

@@ -7,7 +7,7 @@ export default MiddlePage;
 
 function MiddlePage(){
     return (
-        <div id="page3" class="pages">
+        <div id="page3" class="pages pagesVar1">
             <div class="left-column">
                 <div id="left-top">
                     <TitledBox title="Skills and Topics of interest" text="As of today i am still a student of the craft, however I have accumulated some interests and skills in the field of dev and IT:"/>

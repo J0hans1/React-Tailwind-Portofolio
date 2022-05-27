@@ -7,7 +7,7 @@ export default LastPage;
 
 function LastPage(){
     return (
-        <div id="LastPage" class="pages">
+        <div id="LastPage" class="pages pagesVar1">
             <div id="last-left-column" class="left-column">
                 <RoundImage/>
                 <a id="download-btn" href='../content/' download="CV.docx"> 

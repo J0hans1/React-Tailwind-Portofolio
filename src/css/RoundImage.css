@@ -3,7 +3,6 @@
     width: 600px;
     height: 600px;
     border-radius: 50%; /*makes it circular*/
-    border: #000000 solid 13px;
     background-position: center;
     background-size: cover;
 }

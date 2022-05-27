@@ -1,7 +1,6 @@
-#page{
-    background-color: #A29BFE;
+#bottom{
+    margin: 10% 0 0 3%;
+    display: flex;
+    align-items: left;
 }
 
-button{
-    background-color: #6C5CE7;
-}

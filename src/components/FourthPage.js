@@ -7,7 +7,7 @@ export default FourthPage;
 
 function FourthPage(){
     return (
-        <div id="page4" class="pages">
+        <div id="page4" class="pages pagesVar2">
             <div class="left-column">
                 <img src={react} alt="React logo" class="framework-icon" id="react-logo" />
                 <img src={tailwind} alt="Tailwind logo" class="framework-icon" id="tailwind-logo" />
