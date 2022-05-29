@@ -20,6 +20,7 @@ button:hover{
     /*makes the button brighter*/
     filter: brightness(115%);
     text-decoration: underline;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 button:active{

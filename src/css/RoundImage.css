@@ -10,4 +10,5 @@
 #img:hover{
     transform: scale(1.05);
     transition: 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
