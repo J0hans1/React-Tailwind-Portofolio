@@ -1,10 +1,5 @@
-
-
-.framework-icon{
-    width: 35%;
-}
-
-#react-logo{
-    position: relative;
-    left: 50%;
+#page4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
