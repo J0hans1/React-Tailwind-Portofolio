@@ -3,6 +3,7 @@ import TitledBox from "./TitledTextBox";
 import RoundImage from './RoundImage';
 import SocialLinks from './SocialLinks';
 import PageTop from './PageTop';
+import WaveTransition from './WaveTransition';
 
 export default FrontPage;
 
@@ -17,6 +18,7 @@ function FrontPage(){
             <div class="right-column">
                 <RoundImage pic="1"/>
             </div>
+            <WaveTransition color="#FFFCF3"/>
         </div>
     )
 }

@@ -2,6 +2,7 @@ import '../css/MiddlePage.css';
 import LinkButton from "./LinkButton";
 import TitledBox from "./TitledTextBox";
 import Topics from './TopicBox';
+import WaveTransition from './WaveTransition';
 
 export default MiddlePage;
 
@@ -31,6 +32,7 @@ function MiddlePage(){
                     </div>
                 </div>
             </div>
+            <WaveTransition color="#FFFCF3"/>
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import '../css/SecondPage.css';
 import logo from '../img/ntnu-logo.png';
 import TitledBox from "./TitledTextBox";
+import WaveTransition from './WaveTransition';
 
 export default secondPage;
 
@@ -13,6 +14,7 @@ function secondPage(){
             <div class="right-column">
                 <img id="NTNU-logo" src={logo} alt="NTNU logo"/> 
             </div>
+            <WaveTransition color="#A29BFE"/>
         </div>
     )
 }

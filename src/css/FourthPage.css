@@ -4,3 +4,15 @@
     flex-direction: column;
     height: fit-content;
 }
+
+#central-column{
+    margin-bottom: 10%;
+}
+
+#cv-download-container div{
+    text-align: center;
+}
+
+#cv-download-container button{
+    margin: 0;
+}
