@@ -13,6 +13,7 @@ function Event(props){
                 <p className="text-blackTransparent-strong text-sm">{props.date}</p>
             </div>
             <div className="flex mr-10">
+                <div className="w-1 bg-blackTransparent-weak"></div>
                 <span className="w-6 h-6 my-auto rounded-full" style={{backgroundColor: `${props.color}`}}></span>
                 <div className="ml-6 w-40 text-left mr-0">
                     <h2 className="text-lg mb-2">{props.title}</h2>

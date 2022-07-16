@@ -7,7 +7,7 @@ export default Timeline;
 function Timeline(){
     return(
         <div>
-            <div className='flex flex-col items-center gap-y-14'>
+            <div className='flex flex-col items-center'>
                 <Year year="2002"/>
                 <Event title="Hello World!" text="Born in Fredrikstad, Norway" date="April 2002" color="#A29BFE"/>
                 
@@ -33,8 +33,6 @@ function Timeline(){
                 <Event title="React Course" text="" date="April 2002" color="#FFD865"/>
                 <Event title="My first Java project" text="Created a Digital Cookbook desktop application, with filtration functionalityy" date="April 2002" color="#9BECFE"/>
                 <Event title="My first framework based webpage!" text="This very page!" date="April 2002" color="#9BECFE"/>
-            </div>
-            <div className='relative bg-blackTransparent-weak w-1 h-10'> {/*! make this show. supposed to be the line */}
             </div>
         </div>
 

@@ -28,9 +28,9 @@ function MiddlePage(){
                             <img src={ontap} alt="Markus Johansen" className="rounded-2xl"/> {/*src field shall change by button hovered*/}
                         </div>
                         <div>
-                            <LinkButton text="BookOfCook" hyperlink="https://www.linkedin.com/in/markus-johansen-64625b208/"/>
+                            <LinkButton text="BookOfCook" hyperlink="https://github.com/J0hans1/BookOfCook"/>
                             <LinkButton text="Portfolio" hyperlink="https://github.com/J0hans1/React-Tailwind-Portofolio"/>
-                            <LinkButton text="Ontap" hyperlink="mailto:markusarj@gmail.com"/>
+                            <LinkButton text="Ontap" hyperlink="https://github.com/J0hans1/Ontap"/>
                         </div>
                     </div>
                 </div>  
