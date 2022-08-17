@@ -14,6 +14,7 @@ function Timeline(){
                 <Year year="2016"/>
                 <Event title="My first job!" text="Worked as in Newspaper delivery for Verdens Gang (VG) " date="February 2016 - December 2016" color="#FE9BAD"/>
 
+            {/*
                 <Year year="2017"/>
                 <Event title="First encounter with programming" text="Coding using Python APIs for Arduino, during  programming class in middle school" date="" color="#9BECFE"/>
 
@@ -33,6 +34,7 @@ function Timeline(){
                 <Event title="React Course" text="" date="April 2002" color="#FFD865"/>
                 <Event title="My first Java project" text="Created a Digital Cookbook desktop application, with filtration functionalityy" date="April 2002" color="#9BECFE"/>
                 <Event title="My first framework based webpage!" text="This very page!" date="April 2002" color="#9BECFE"/>
+            */}
             </div>
         </div>
 

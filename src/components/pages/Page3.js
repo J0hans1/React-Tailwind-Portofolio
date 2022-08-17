@@ -1,7 +1,6 @@
 // import '../css/MiddlePage.css';
 import LinkButton from "../buttons/LinkButton";
 import TitledBox from "../TitledTextBox";
-import Topics from '../buttons/TopicBox';
 import WaveTransition from '../WaveTransition';
 import ontap from '../../img/ontap-example.png';
 
@@ -9,17 +8,9 @@ export default MiddlePage;
 
 function MiddlePage(){
     return (
-        <div className="relative w-full md:h-screen m-0 bg-gradient-to-b from-purple-100 to-blue">
-            <div className='flex flex-col md:flex-row pt-4 mx-50 justify-evenly'>
-                <div className="flex flex-col md:w-2/5 h-fit">
-                    <div>
-                        <TitledBox title="Skills and Topics of interest" text="While i still am a student of the craft, I have accumulated some skills in the field of dev and I. I have also included some skills that i accumulated while working in different shops:"/>
-                    </div>
-                    <div className="items-center mt-6"> {/*!wont work on topics*/}
-                        <Topics/>
-                    </div>
-                </div>
-                <div className="flex flex-col md:w-2/5 h-fit">
+        <div className="relative pb-60 w-full h-fit m-0 bg-gradient-to-b from-purple-100 to-blue">
+            <div className='flex flex-col sm:flex-row pt-4 mx-50 justify-evenly'>
+                <div className="flex flex-col mx-5 lg:w-2/5 sm:w-3/4 h-fit">
                     <div>
                         <TitledBox title="Projects" text="Through private development and schoolprojects, I have been part of several projects. Beneath is a screenshot of the Ontap-web interface, a project I did with fellow students at NTNU, where I wrote the majority of JS code. i have also provided some links to github repositories for some of my other projects:"/>
                     </div>

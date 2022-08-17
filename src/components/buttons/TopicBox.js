@@ -3,7 +3,7 @@ export default Topics
 
 function Topics(){
     return (
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap p-3 sm:p-8">
             <Topic text="JavaScript"/>
             <Topic text="TypeScript"/>
             <Topic text="HTML5"/>

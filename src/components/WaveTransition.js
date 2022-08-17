@@ -13,7 +13,7 @@ function WaveTransition(props){
                     paused={false}
                     options={{
                         height: 20,
-                        amplitude: 30,
+                        amplitude: 20,
                         speed: 0.2,
                         points: 6
                     }}
@@ -24,7 +24,7 @@ function WaveTransition(props){
                     paused={false}
                     options={{
                         height: 10,
-                        amplitude: 30,
+                        amplitude: 25,
                         speed: -0.2,
                         points: 4
                     }}
