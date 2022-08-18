@@ -8,13 +8,17 @@ module.exports = {
         fit: 'fit-content(20em)',
       },
       colors: {
-        purple : {
+        purple: {
           100: "#A29BFE",
           200: "#897CEB",
           300: "#6C5CE7",
         },
+        ntnu: {
+          normal: '#044494',
+          light: '#0F5B9F',
+        },
         blue: '#7BEFFF',
-        white :{
+        white: {
           ivory:'#FFFCF3',
           light:'rgb(255, 255, 255)',
         },
