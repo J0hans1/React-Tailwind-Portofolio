@@ -23,7 +23,7 @@ function secondPage(){
                 <div className="w-full lg:w-2/5 h-fit">
                     <TitledBox title="Skillset and technologies" text="I have worked with the following technologies in school or as a part of my sparetime software-development. I am currently most skilled within Java and JavaScript programming, and i feel passionate about the entire stack of development (front- and backend). While this page is IT-focused, i have also included some skillsets which was important during my previous employments."/>
                 </div>
-                <div className="lg:w-2/5 h-fit">
+                <div className="w-full lg:w-2/5 h-fit">
                     <Topics/>
                 </div>
             </div>
