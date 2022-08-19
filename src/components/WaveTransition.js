@@ -5,7 +5,7 @@ export default WaveTransition;
 
 function WaveTransition(props){
     return (
-        <div className="wave-container">
+        <div className="mt-10">
             <div className='waves'>
                 <Wave
                     className="wave1"

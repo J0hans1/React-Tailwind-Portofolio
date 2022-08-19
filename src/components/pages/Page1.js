@@ -8,18 +8,26 @@ export default FrontPage;
 //pagesvar1
 function FrontPage(){
     return (
-        <div className="w-full m-0 bg-gradient-to-b from-purple-100 to-blue">
-            {/*pagetop? */}
-
-            
+        <div className="flex flex-col w-full h-fit m-0 bg-gradient-to-b from-purple-100 to-blue">
             {/*Content */}
-            <div className='flex justify-evenly mx-5 sm:mx-20 pt-5 sm:pt-36 pb-40'>
-                <div className="flex flex-col items-center sm:w-3/4 lg:w-2/5 h-fit">
+            <div className='flex flex-col md:flex-row justify-evenly mx-5 sm:mx-20 pt-5 sm:pt-36'>
+
+                {/*left-column/text and buttons 1*/}
+                <div className="flex flex-col items center mx-auto sm:w-3/4 lg:w-2/5 h-fit">
                     <TitledBox title="Welcome to my portfolio!" text="Hello, I am Markus Johansen. I am a student of information technologies at the Norwegian University of  Science and Technology (NTNU), Based In Trondheim, Norway. I made this website because i wanted a 'web based' portfolio and an opportunity to accummulate skills within industry-relevant frameworks (React and Tailwind). The portfolio will contain relevant information about me, my education, skills, and work experience."/>
-                    <SocialLinks id="links"/>
+                    <div className="hidden md:block">
+                        <SocialLinks/>
+                    </div>
                 </div>
-                <div className="w-2/5 h-fit md:ml-40 lg:block hidden ">
+
+                {/*image/right-column //!forsvinner ved low */}
+                <div className="mx-auto my-10">
                     <RoundImage pic="1"/>
+                </div>
+
+                {/*social links 2 */}
+                <div className="mx-auto flex md:hidden">
+                    <SocialLinks/>
                 </div>
             </div>
             

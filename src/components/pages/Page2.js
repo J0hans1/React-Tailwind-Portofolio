@@ -8,7 +8,7 @@ export default secondPage;
 
 function secondPage(){
     return (
-        <div className="relative w-full lg:h-screen m-0 bg-white-ivory pb-40">
+        <div className="relative w-full lg:h-screen m-0 bg-white-ivory">
             {/*content */}
             <div className='flex flex-col lg:justify-evenly mx-5 sm:mx-20 pt-4'>
 

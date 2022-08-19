@@ -6,8 +6,8 @@ export default FourthPage;
 
 function FourthPage(){
     return (
-        <div className="relative w-full h-fit m-0 pb-8 bg-white-ivory">
-            <div className="flex flex-col w-full h-fit items-center pb-44 justify-evenly sm:mx-10">
+        <div className="relative w-full h-fit m-0 bg-white-ivory">
+            <div className="flex flex-col w-full h-fit items-center justify-evenly sm:mx-10">
                 {/*<Timeline/>*/}
                 <div className="flex flex-col mt-10 text-center mx-5">
                     <h1 className="mb-3 text-2xl sm:text-4xl font-medium sm:mb-7">Want more information?</h1>
