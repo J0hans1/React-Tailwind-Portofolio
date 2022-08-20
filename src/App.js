@@ -11,7 +11,7 @@ function App() {
       <SecondPage />
       <MiddlePage />
       <FourthPage />
-      <LastPage />
+      {/*<LastPage />*/}
     </div>
   );
 }
