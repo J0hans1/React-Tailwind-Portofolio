@@ -7,7 +7,7 @@ export default LastPage;
 
 function LastPage(){
     return (
-        <div className="relative w-full h-fit m-0 bg-gradient-to-b from-purple-100 to-sand overflow-hidden pb-32">
+        <div className="relative w-full h-fit m-0 bg-gradient-to-b from-purple-100 to-sand-200 overflow-hidden pb-32">
             <div className="flex justify-center mx-10 mt-16">
                 <div className="lg:w-2/5 h-fit lg:block hidden ">
                     <RoundImage/>

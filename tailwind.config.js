@@ -17,7 +17,12 @@ module.exports = {
           normal: '#044494',
           light: '#0F5B9F',
         },
-        sand: '#f2d2a9',
+        sand: {
+          400: '#9A7B4F',
+          300: '#dabd98',
+          200: '#f2d2a9',
+          100: '#f3d7b2',
+        },
         white: {
           ivory:'#FFFCF3',
           light:'rgb(255, 255, 255)',
