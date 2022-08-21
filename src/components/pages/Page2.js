@@ -7,6 +7,7 @@ import Topics from '../buttons/TopicBox';
 export default secondPage;
 
 function secondPage(){
+
     return (
         <div className="relative w-full h-fit m-0 bg-white-ivory">
             {/*content */}

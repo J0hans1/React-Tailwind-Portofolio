@@ -6,7 +6,7 @@ export default MiddlePage;
 
 function MiddlePage(){
     return (
-        <div className="relative w-full h-fit m-0 bg-gradient-to-b from-purple-100 to-sand-200">
+        <div id="page3" className="relative w-full h-fit m-0 bg-gradient-to-b from-purple-100 to-sand-200">
 
             {/*content*/}
             <div className="flex flex-col items-center mx-5 sm:mx-40 pb-10">
