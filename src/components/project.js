@@ -24,7 +24,9 @@ function Project(props){
                 </div>
             </div>
         );
-    }else if (props.src === "2"){
+    }
+    
+    {/*else if (props.src === "2"){
         return (
             <div className="justify-evenly flex flex-col lg:flex-row w-full rounded-3xl mx-5 mt-10 p-8 bg-weakTransparent ">
                 <div className="lg:w-2/5 flex flex-col justify-center mb-10">
@@ -60,7 +62,7 @@ function Project(props){
                 </div>
             </div>
         );
-    };
+    };*/}
 
 
 }
