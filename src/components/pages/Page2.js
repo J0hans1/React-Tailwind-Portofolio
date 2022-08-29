@@ -3,13 +3,15 @@ import logo from '../../img/ntnu-logo.png';
 import TitledBox from "../TitledTextBox";
 import WaveTransition from '../WaveTransition';
 import Topics from '../buttons/TopicBox';
+import { useRef } from 'react';
 
-export default secondPage;
+export default SecondPage;
 
-function secondPage(){
-
+function SecondPage(){
+    const inputRef = useRef()
+    
     return (
-        <div className="relative w-full h-fit m-0 bg-white-ivory">
+        <div ref={inputRef} className="relative w-full h-fit m-0 bg-white-ivory">
             {/*content */}
             <div className='flex flex-col lg:justify-evenly mx-5 sm:mx-20 pt-4'>
 
